@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    GITHUB_REPO    = "https://github.com/Pratima3112/Devops-pipeline-project01.git"
+    GITHUB_REPO    = "git@github.com:Pratima3112/Devops-pipeline-project01.git"
     IMAGE_NAME     = "localhost:5000/devops-app"
     IMAGE_TAG      = "1.${BUILD_NUMBER}"
     CLUSTER_NAME   = "devops-cluster"
